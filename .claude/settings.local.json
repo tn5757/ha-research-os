@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "WebFetch",
+      "WebSearch",
+      "Task",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git log:*)",
+      "Bash(git branch:*)",
+      "Bash(git checkout:*)",
+      "Bash(git config:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(wsl -e bash -c \"cd /home/stmtn/product-management-os && git remote -v\")",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(npx playwright install chromium)",
+      "Bash(node screenshot.js:*)",
+      "Bash(git init:*)",
+      "Bash(python3:*)",
+      "Bash(pip3 list:*)",
+      "Bash(git -C /Users/tonegawanaoya5757/Documents/claude-projects/ha-research-os remote add origin:*)",
+      "Bash(git -C /Users/tonegawanaoya5757/Documents/claude-projects/ha-research-os remote -v)"
+    ],
+    "additionalDirectories": [
+      "\\tmp",
+      "/Users/tonegawanaoya5757/Documents/claude-projects/ha-research-os/03_papers/tonegawa-2025-chat-advocacy/data"
+    ]
+  }
+}
